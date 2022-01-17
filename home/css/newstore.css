@@ -1,0 +1,25 @@
+.main{
+	margin: 0px auto !important;
+	margin-top: -3% !important;
+	/* align-items: center !important; */
+}
+.content{
+	margin: -3% !important;
+	background: #fff;
+	color: #3ccabb;
+	padding: 3% 0 !important;
+	font-weight: bold;
+}
+.header{
+	margin: 0%;
+	color: #fff;
+	background: #3ccabb;
+	font-weight: bold;
+	font-size: .8rem !important;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.btn-info{
+	color: #fff;
+	background: #3ccabb;
+}

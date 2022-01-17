@@ -1,0 +1,133 @@
+
+.login-block {
+	background: #DE6262;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #9bf7ed, #33cabb);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #9bf7ed, #33cabb);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	float: left;
+	width: 100%;
+	padding: 50px 0;
+}
+.adds{
+    margin-top: 2%;
+    font-size: .9rem;
+}
+label{
+	color: #33cabb !important;
+}
+input{
+    color: #33cabb !important;
+}
+
+.adds a{
+    margin: 2%;
+    color: #33cabb;
+    text-decoration: underline;
+}
+.banner-sec {
+	background: url(https://static.pexels.com/photos/33972/pexels-photo.jpg) no-repeat left bottom;
+	background-size: cover;
+	min-height: 500px;
+	border-radius: 0 10px 10px 0;
+	padding: 0;
+	color: #33cabb !important;
+}
+
+.container {
+	border-radius: 10px;
+	box-shadow: 15px 20px 0px rgba(0, 0, 0, 0.1);
+}
+.con{
+    background: #fff;
+}
+
+.carousel-inner {
+	border-radius: 0 10px 10px 0;
+}
+
+.carousel-caption {
+	text-align: left;
+	left: 5%;
+}
+
+.login-sec {
+	padding: 50px 30px;
+	position: relative;
+}
+
+.login-sec .copy-text {
+	position: absolute;
+	width: 80%;
+	bottom: 20px;
+	font-size: 13px;
+	text-align: center;
+}
+
+.login-sec .copy-text i {
+	color: #9bf7ed;
+}
+
+.login-sec .copy-text a {
+	color: #33cabb;
+}
+
+.login-sec h2 {
+	margin-bottom: 30px;
+	font-weight: 800;
+	font-size: 30px;
+	color:#3adac7;
+}
+
+.login-sec h2:after {
+	content: " ";
+	width: 100px;
+	height: 5px;
+	background: #9bf7ed;
+	display: block;
+	margin-top: 20px;
+	border-radius: 3px;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.btn-login {
+	background: #24af9f;
+	color: #fff;
+	font-weight: 600;
+}
+.btn-login:hover{
+	background: #147468;
+	color: #fff;
+	font-weight: 600;
+}
+
+.banner-text {
+	width: 70%;
+	position: absolute;
+	bottom: 40px;
+	padding-left: 20px;
+}
+
+.banner-text h2 {
+	color: #fff;
+	font-weight: 600;
+}
+
+.banner-text h2:after {
+	content: " ";
+	width: 100px;
+	height: 5px;
+	background: #FFF;
+	display: block;
+	margin-top: 20px;
+	border-radius: 3px;
+}
+
+.banner-text p {
+	color: #fff;
+}
+.error, .success{
+	display: none;
+}
